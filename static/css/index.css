@@ -69,7 +69,7 @@ section {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .nav a {
     float: none;
     width: auto;
