@@ -45,3 +45,32 @@ ul {
 
 }
 
+@media screen and (max-width: 400px) {
+  .nav a {
+    float: none;
+    width: auto;
+    position: relative;
+    font-size: 15px;
+  }
+  ul {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 15px;
+  }
+  body {
+    position: relative;
+  }
+  #talks h3 {
+   margin-left: 20px;
+   margin-top: 30px;
+   font-size: 25px;
+}
+ #note h3 {
+    font-size: 20px;
+    margin-left: -20px;
+}
+ #note p {
+   font-size: 17px;
+ }
+}
+
